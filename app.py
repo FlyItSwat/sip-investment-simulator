@@ -5,7 +5,7 @@ import streamlit as st
 from calculator import project, inr
 
 st.set_page_config(page_title="SIP Investment Simulator", page_icon="📈", layout="wide")
-st.title("📈 SIP & Compound Interest Simulator")
+st.title("SIP & Compound Interest Simulator")
 st.caption("Explore SIPs, lump-sum investments, annual SIP step-ups, and inflation-adjusted wealth.")
 with st.sidebar:
     st.header("Investment assumptions")
